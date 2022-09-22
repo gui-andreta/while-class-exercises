@@ -76,6 +76,12 @@ void main() {
             scanf("%i", &vqtd);
             vtotal = vcc * vqtd;
         }
+        
+        // sair do laço de repetição
+        if (vcodigo == vs)
+        {
+            break;
+        }
 
         vsoma = vsoma + vtotal;
     }
